@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    background-image: url("images/image-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;   
+
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333; 
+    height: 75px;  
+  }
+
+#logo{
+    margin: 0cm 25cm 0cm 0cm;
+    position : relative;
+    top:20px;
+  }
+
+.navbar a {
+   float:right;
+   font-size: 25px;
+   color: white;
+   text-align: center;
+   padding: 0px 10px 60px 10px;
+   text-decoration: none;
+ }
+  
+.subnav  {  
+   border: none;
+   color: white;
+   padding: 0px 10px 50px 10px;
+   background-color: inherit;
+   float: right;
+  }
+
+.subnavbtn { 
+  font-size: 16px;  
+  border: none;
+  color: white;
+  padding: 5px 10px 51px 20px;
+  background-color: inherit;
+
+  }
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+    background-color:darksalmon;
+  }
+  
+.subnav-content {
+    display: none;
+    float:right;
+    position:absolute;
+    left:0px;
+    background-color: darksalmon;
+    width: 100%;
+    z-index: 1;
+    height: 30px;
+    margin-top: -44px;
+  }
+  
+.subnav-content a {
+  
+    float: right;
+    padding: 4.5px; 
+    font-size: 18px;
+    float: right;
+    color: white;
+    text-decoration: none;
+  }
+  
+.subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+.subnav:hover .subnav-content {
+    display: block;
+  }
+
+#welcome{
+    height:230px;
+    width: 100%;
+    color: black;
+    text-align:center;
+    padding: 143px  0px;
+    }
+
+.footer{
+    border: 3px solid black;
+    background-color: black;
+    color:white;
+    text-align:center;
+    padding: 5px 10px;
+    }
+
+
+       

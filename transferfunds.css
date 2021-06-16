@@ -1,0 +1,57 @@
+body{
+    margin: 0 ;
+}
+
+.header{
+    background-color: rgb(10, 76, 85);
+    border: 1px solid rgb(10, 76, 85);
+    height: 75px;
+    opacity: 0.6;
+   
+}
+
+.content{
+    height: 489px;
+    margin-top: 0px;
+    border: 1px solid cornflowerblue;
+    
+}
+
+
+.footer{
+    background-color: rgb(10, 76, 85);
+    height: 55px;
+    border: 1px solid rgb(10, 76, 85);
+    opacity: 0.7;
+}
+
+h1, h3{
+    color: limegreen;
+    text-align: center;
+}
+
+input[type=text]{
+    width: 300px;
+    height: 25px;
+    border-radius: 50px;
+}
+
+input[type=date]{
+    width: 300px;
+    height: 25px;
+    border-radius: 50px;
+}
+
+input[type=number]{
+    width: 300px;
+    height: 25px;
+    border-radius: 50px;
+}
+
+input[type=submit]
+{
+    width: 150px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 10px;
+}
